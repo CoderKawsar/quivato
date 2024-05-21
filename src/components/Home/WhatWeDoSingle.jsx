@@ -9,7 +9,11 @@ function WhatWeDoSingle({ title, description, isCenter }) {
           : "hover:shadow-xl bg-[#fff4f4]"
       } w-52 p-6 cursor-pointer shadow`}
     >
-      <img src={imgClock} className="p-3 rounded-lg bg-[#f56767]" alt="" />
+      <img
+        src={imgClock}
+        className="p-3 rounded-lg bg-[#f56767] animate__animated  animate__shakeY"
+        alt=""
+      />
       <h3 className="mt-9 mb-[13px] text-[#FF3300] text-[25px] font-bold">
         {title}
       </h3>

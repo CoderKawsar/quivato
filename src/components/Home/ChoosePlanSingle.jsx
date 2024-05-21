@@ -18,7 +18,7 @@ function ChoosePlanSingle({ plan }) {
       </div>
       <Link
         to="price"
-        className="mt-10 block text-white border border-[#e33058] text-center py-3.5 hover:bg-[#e33058] rounded"
+        className="mt-10 block text-white border border-[#e33058] text-center py-3.5 hover:bg-[#e33058] rounded animate__animated animate__heartBeat"
       >
         More detail
       </Link>

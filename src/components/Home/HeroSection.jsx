@@ -5,7 +5,7 @@ function HeroSection() {
   return (
     <div className="mx-[85px] py-[72px] flex bg-[#CCFAF5] rounded-[35px]">
       <div className="pl-[56px] w-7/12">
-        <h2 className="text-[75px] font-bold leading-tight mt-12 mb-8">
+        <h2 className="text-[75px] font-bold leading-tight mt-12 mb-8 animate__animated animate__backInDown animate__delay-10s">
           Maximize your business with <span className="text-[#e05d5d]">us</span>
         </h2>
         <p className="text-xl mb-16 w-8/12">
@@ -20,14 +20,18 @@ function HeroSection() {
           </Link>
           <Link
             to="contact"
-            className="text-base px-16 py-5 border-2 border-black font-bold rounded"
+            className="text-base px-16 py-5 border-2 border-black font-bold rounded animate__animated animate__flash"
           >
             About Us
           </Link>
         </div>
       </div>
       <div className="h-[473px] w-5/12">
-        <img src={heroImg} className="h-[473px]" alt="Hero section image" />
+        <img
+          src={heroImg}
+          className="h-[473px] animate__animated  animate__backInRight"
+          alt="Hero section image"
+        />
       </div>
     </div>
   );

@@ -35,7 +35,11 @@ function ReviewSection() {
     <div className="mt-28 py-28 relative bg-gradient-to-r from-white via-[#F5FCCE] to-[#FCFEF2]">
       <div className="bg-[#e05d5d] rounded-full border-8 border-white absolute top-[-25px] left-1/2">
         <div className="flex justify-center items-center w-14 h-14 rounded-full">
-          <img src={quoteImg} alt="Quote" />
+          <img
+            src={quoteImg}
+            className="animate__animated animate__shakeX"
+            alt="Quote"
+          />
         </div>
       </div>
       <div className="grid grid-cols-3 gap-x-16">

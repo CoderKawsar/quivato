@@ -5,7 +5,11 @@ function Header() {
   return (
     <header className="flex justify-between items-center mx-32 py-4 mb-12">
       <div className="h-[100px] w-[100px]">
-        <img src={siteLogo} className="h-[100px] w-[100px]" alt="Quivato" />
+        <img
+          src={siteLogo}
+          className="h-[100px] w-[100px] animate__animated  animate__flipInX"
+          alt="Quivato"
+        />
       </div>
       <div className="flex gap-x-16 text-white text-lg font-bold">
         <Link to="/">Home</Link>

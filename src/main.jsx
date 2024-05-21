@@ -5,19 +5,32 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
+import Layout from "./components/shared/Layout";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: (
+      <Layout>
+        <Home />
+      </Layout>
+    ),
   },
   {
     path: "/services",
-    element: <Services />,
+    element: (
+      <Layout>
+        <Services />
+      </Layout>
+    ),
   },
   {
     path: "/contact",
-    element: <Contact />,
+    element: (
+      <Layout>
+        <Contact />
+      </Layout>
+    ),
   },
 ]);
 

@@ -1,7 +1,15 @@
+import ChoosePlanSection from "../components/Home/ChoosePlanSection";
+import HeroSection from "../components/Home/HeroSection";
+import ReviewSection from "../components/Home/ReviewSection";
+import WhatWeDoSection from "../components/Home/WhatWeDoSection";
+
 function Home() {
   return (
     <div>
-      <h1>This is Home Page</h1>
+      <HeroSection />
+      <WhatWeDoSection />
+      <ReviewSection />
+      <ChoosePlanSection />
     </div>
   );
 }

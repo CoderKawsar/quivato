@@ -25,7 +25,7 @@ function WhatWeDoSection() {
     },
   ];
   return (
-    <div className="mt-28 mx-[112px]">
+    <div className="mt-28 mx-[85px]">
       <h2 className="text-[40px] text-[#FF3300] font-bold mb-10 text-center">
         What we do
       </h2>

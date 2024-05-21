@@ -3,7 +3,7 @@ import siteLogo from "../../assets/images/Quivato_fullpic.png";
 
 function Header() {
   return (
-    <header className="flex justify-between items-center mx-52 py-4 mb-12">
+    <header className="flex justify-between items-center mx-32 py-4 mb-12">
       <div className="h-[100px] w-[100px]">
         <img src={siteLogo} className="h-[100px] w-[100px]" alt="Quivato" />
       </div>

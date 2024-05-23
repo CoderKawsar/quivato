@@ -5,9 +5,9 @@ function WhatWeDoSingle({ title, description, isCenter }) {
     <div
       className={`${
         isCenter
-          ? "bg-[#fcf9f9] rounded-2xl shadow-2xl hover:bg-white"
+          ? "bg-[#fcf9f9] shadow-2xl hover:bg-white"
           : "hover:shadow-xl bg-[#fff4f4]"
-      } md:w-52 p-6 mb-4 mx-auto cursor-pointer shadow`}
+      } lg:w-52 p-6 mb-4 mx-auto cursor-pointer rounded-2xl shadow `}
     >
       <img
         src={imgClock}

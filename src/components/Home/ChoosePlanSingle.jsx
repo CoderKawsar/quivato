@@ -8,7 +8,7 @@ function ChoosePlanSingle({ plan }) {
       <p className="text-[44px] font-medium mt-4 mb-6 text-white text-center">
         {price}$ <span className="text-base">/ month</span>
       </p>
-      <div className="flex flex-col gap-2.5">
+      <div className="flex flex-col items-center md:items-start gap-2.5">
         {features.map((feature, index) => (
           <div key={index} className="flex items-center">
             <p className="h-1 w-1 bg-[#FF3300] rounded-full"></p>

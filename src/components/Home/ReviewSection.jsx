@@ -42,7 +42,7 @@ function ReviewSection() {
           />
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-16">
         {reviews.map((review) => (
           <ReviewSingle key={review._id} singleReview={review} />
         ))}

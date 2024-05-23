@@ -25,11 +25,11 @@ function WhatWeDoSection() {
     },
   ];
   return (
-    <div className="mt-28 mx-[85px]">
+    <div className="mt-16 md:mt-28 md:mx-[85px]">
       <h2 className="text-[40px] text-[#FF3300] font-bold mb-10 text-center">
         What we do
       </h2>
-      <div className="bg-[#FFECEC] flex justify-between rounded-[90px] px-44 py-28">
+      <div className="bg-[#FFECEC] grid grid-cols-1 md:grid-cols-3 md:rounded-[90px] px-4 md:px-44 py-10 md:py-28">
         {whatWeDos.map((whatWeDo) => (
           <WhatWeDoSingle
             key={whatWeDo.serial}
